@@ -230,7 +230,7 @@ REFRESH MATERIALIZED VIEW starfleet.analytics.sensor_reading;
 -- DROP MATERIALIZED VIEW IF EXISTS starfleet.transform.vessel;
 -- DROP TABLE IF EXISTS starfleet.raw.vessel_delete_signal;
 -- DROP TABLE IF EXISTS starfleet.raw.starship_record;
--- DROP SCHEMA IF EXISTS raw
--- DROP SCHEMA IF EXISTS transform
--- DROP SCHEMA IF EXISTS analytisc
--- DROP SCHEMA IF EXISTS intermediate
+-- DROP SCHEMA IF EXISTS starfleet.raw
+-- DROP SCHEMA IF EXISTS starfleet.transform
+-- DROP SCHEMA IF EXISTS starfleet.analytics
+-- DROP SCHEMA IF EXISTS starfleet.intermediate
